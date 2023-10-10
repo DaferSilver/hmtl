@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#7b2cbf,#24ccff);
+}
+.conte{
+    margin: 50px auto;
+    padding: 30px;
+    width: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.conte h1{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 40px;
+    color:#000000;
+    text-align: center;
+    animation: fade-in 3s 1;
+}
+
+.conte .elemento label{
+    color: rgb(0, 0, 0);
+    animation: fade-in 3s 1;
+}
+
+.conte .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: 1px solid;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    animation: fade-in 3s 1;
+}
+
+.conte .elemento button[type="submit"]{
+    background: linear-gradient(right,#ff5400,#ffee00);
+    border: rgba(0, 0, 0, 0) 0px solid;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 100%;
+    animation: fade-in 3s 1;
+    color: white;
+}
+.Signup{
+    text-align: center;
+    text-decoration: none;
+    animation: fade-in 3s 1;
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #168AAD;
+    animation: fade-in 3s 1;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
